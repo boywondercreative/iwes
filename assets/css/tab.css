@@ -1,0 +1,90 @@
+/* =============================================================================
+   TABBED PAGE  
+   ========================================================================== */
+.tab-container{
+ background-color: #fdfdfd;
+position:relative;
+}
+/* =============================================================================
+   TABS
+   ========================================================================== */
+.tab-container ul.etabs{
+	list-style:none;
+	margin: 0;
+}
+.tab-container ul.etabs{
+/*    background: linear-gradient(to right, #FDFDFD 97%, #F0F0F0 100%) repeat scroll 0 0 transparent;
+    border-right: 1px solid #DDDDDD;
+    border-top: 1px solid #FFFFFF;*/
+    float: left;
+    width: 33%;
+}
+.tab-container .etabs li {
+    border-bottom: 1px dotted #ddd;
+    margin-right: -1px;
+    padding: 1px 0;
+}
+.tab-container .etabs li:last-child {
+    border-bottom: none;
+}
+.tab-container .etabs li.active,
+.tab-container .etabs li.tab:hover 
+  {
+    background: #fff;
+    border-bottom: 1px dotted #ccc;
+    border-top: 1px dotted #ccc;
+    padding: 0;
+	
+	-webkit-transition: all 0.2s ease 0s;
+	-moz-transition: background-position 0.1s linear;
+	-o-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;	
+}
+.tab-container .etabs li a{}
+.tab-container .etabs li a:hover{
+text-decoration:none;
+}
+.tab-container .etabs span {
+    color: #7E8083;
+    display: block;
+    font-family: 'GnuolaneRegular';
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+    overflow: hidden;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.tab-container .etabs li.active a span, 
+.tab-container .etabs li.tab:hover a span{
+	color: #E51E27;
+	margin-left: 20px;
+	-webkit-transition: all 0.2s ease 0s;
+	-moz-transition: background-position 0.1s linear;
+	-o-transition: all 0.2s ease 0s;
+	transition: all 0.2s ease 0s;
+}
+.tab-container .etabs li.active:first-child {
+    border-top: none;
+    padding-top: 1px;
+}
+
+/* =============================================================================
+   TABBED CONTENT
+   ========================================================================== */
+.tab-container div.slides-container{
+    background:#fff;
+    border-left: 1px dotted #ccc;
+    margin-left: 33%;
+min-height: 400px; 
+height:auto !important; 
+height: 400px;
+}
+.tab-container div.slides-container > div{
+padding: 20px 30px;
+}
+.tab-container div.slides-container h3{
+    line-height: 1;
+    margin-bottom: 20px;
+}

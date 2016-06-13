@@ -1,0 +1,77 @@
+/* =============================================================================
+   
+   ========================================================================== */
+#articles{
+background-color:#fff;
+float: left;
+}
+#recent article{
+    padding: 0 0 20px;
+}
+
+#articles article {
+    float: left;
+    margin: 0;
+    padding: 0 0 5%;
+    width: 33%;
+}
+#recent article a, #articles article a {
+    border: none;
+    color: #666;
+    display: block;
+    text-decoration: none;
+}
+#articles article a {
+	padding:20px;
+}
+#recent article a:hover, #articles article a:hover {
+    color: #333;
+    text-decoration: none;
+}
+#recent article h2, #articles article h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+	color: #E51E27;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+#recent article span.go, #articles article span.go {
+	color: #E51E27;
+    font-size: 16px;
+	line-height: 1.5em;
+    opacity: 0;
+    transition: opacity 0.25s ease-out 0s;
+	
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;		
+    white-space: nowrap;
+}
+#recent article a:hover .go, #articles article a:hover .go {
+    opacity: 1;
+}
+#recent article p, #articles article p {
+
+}
+
+
+#articles nav#post-nav{
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#articles nav#post-nav div.previous, 
+#articles nav#post-nav div.next{
+ padding:20px;
+}
+
+#articles nav#post-nav div.previous{
+float:left;}
+#articles nav#post-nav div.next{
+float:right;}
+

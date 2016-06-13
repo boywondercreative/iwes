@@ -1,0 +1,7 @@
+img,
+embed,
+object,
+video {
+    height: auto;
+	width: 100%;
+}

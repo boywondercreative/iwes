@@ -1,0 +1,101 @@
+/* =============================================================================
+   
+   ========================================================================== */
+   
+#child_branding{
+   background-color: #fff;
+    float: left;
+    height: 480px;
+}
+#child_branding a{
+/*	background: url("../img/by_nola_logo.jpg") no-repeat scroll 0 0;
+    display: block;
+    height: 100%;
+    text-indent: -999px;
+    width: 100%;*/
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../img/by_nola_logo.jpg");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: block;
+    height: 100%;
+    text-indent: -999px;
+    width: 100%;	
+}
+
+/*.sidebar ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.sidebar ul li {
+    border-top: 1px dotted #ddd;
+    line-height: 20px;
+    padding: 10px 0;
+}
+*/
+
+
+#footer_pages{
+/*    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 200px;*/
+}
+#footer_programs{
+/*color: #FFFFFF;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;*/
+    float: left;
+    width: 760px;
+}
+
+div#footer_programs > ul {
+	padding:0;
+	margin:0;
+}
+
+div#footer_programs > ul li{
+	list-style:none;
+
+}
+
+
+ul#page_map{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+ul#page_map a{
+color:#fff;}
+
+ul#page_map li.menu-home{
+}
+
+li.menu-block {
+    display: block;
+    float: left;
+    margin: 20px 0;
+    padding: 0 0 5%;
+    width: 33%;
+}
+li.menu-block a{
+text-transform:uppercase;
+
+}
+
+ul.sub-menu{
+	padding:0;
+	margin:0;
+	}
+ul.sub-menu li a{
+    font-size: 12px;
+    text-transform: capitalize;
+}
